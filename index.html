@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            background-color: #f7f7f7;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: white;
+            height: 100vh;
+        }
+        .sidebar h1 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .sidebar h1 span {
+            color: #e74c3c;
+            font-size: 14px;
+            display: block;
+        }
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 30px;
+            width: 100%;
+        }
+        .contact-links a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .contact-links a:hover {
+            background-color: #e0e0e0;
+            color: black;
+        }
+        .social-icons {
+            margin-top: auto;
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .image-box {
+            flex: 1 1 300px;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .text-box {
+            flex: 2 1 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-box h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .text-box p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            color: white;
+            background-color: #ffc107;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #e0a800;
+        }
+
+        /* List styling */
+        .list-container {
+            flex: 1 1 auto;
+        }
+
+        .list-container h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        ul.custom-markers li {
+            list-style-type: none;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul.custom-markers li::before {
+            content: "✔";
+            color: green;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Table Styling */
+        .experience-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        .experience-table th, .experience-table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+        .experience-table th {
+            background-color: #f2f2f2;
+        }
+        .experience-table td {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <h1>Ikmal Fathillah <span>Student</span></h1>
+        </div>
+        <div class="contact-links">
+            <a href="Biodata.html">ABOUT ME</a>
+            <a href="Gallery.html">GALLERY</a>
+            <a href="Family.html">FAMILY</a>
+            <a href="education.html">EDUCATION</a>
+            <a href="Experience.html">EXPERIENCE</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <!-- Main content with image and text -->
+            <div class="content">
+                <div class="image-box">
+                    <img src="Mal.jpg" alt="Ikmal">
+                </div>
+                <div class="text-box">
+                    <h1>Annyong disana! Ikmal disni 0_0</h1>
+                    <p>Saya Ikmal Fathillah merupakan seorang atlet Para Olahraga Selangor dalam kategori Masalah Penglihatan T13.Saya berumur 20 tahun dan tarikh lahir saya adalah 24/2/2004.</p>
+                    <div class="buttons">
+                        <a href="https://www.hmetro.com.my/arena/lain/2024/09/1137736/fobia-diejek-ikmal-fathillah-bangkit-lepas-geram-di-kuching">
+                            <button class="button">Artikel</button>
+                        </a>
+			<a href="https://www.instagram.com/ikmalfathillah_/profilecard/?igsh=MTVvcDVtMndpZmxqdA==">
+                        <button class="button">Contact Me</button>
+			</a>
+                    </div>
+                    <div class="list-container">
+                        <h2>My Achievements</h2>
+                        <ol>
+                            <li>Memenangi tiga pingat emas di Temasya sukan Parasukma Sarawak</li>
+                            <li>Menjuarai kejohanan Karisma UITM bola sepak</li>
+                            <li>Menjuarai Kejohanan futsal AMD</li>
+                        </ol>
+
+                        <h2>Hobbies</h2>
+                        <ul>
+                            <li>Berlari</li>
+                            <li>Bermain bola</li>
+                            <li>Traveling</li>
+                        </ul>
+
+                        <h2>Skills</h2>
+                        <ul class="custom-markers">
+                            <li>Softspoken</li>
+                            <li>pandai rampas awek orang</li>
+                            <li>pandai tackle awek</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Table -->
+                    <h2>Work Experience</h2>
+                    <table class="experience-table">
+                        <tr>
+                            <th>Kerja</th>
+                            <th>Company</th>
+                            <th>Tahun</th>
+                        </tr>
+                        <tr>
+                            <td>Data Analisis</td>
+                            <td>UTW SDN BHD</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Baker</td>
+                            <td>Roti Boy</td>
+                            <td>2023</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    // Tambahkan jam digital
+    const clockContainer = document.createElement('div');
+    clockContainer.style.marginTop = '20px';
+    clockContainer.style.fontSize = '18px';
+    clockContainer.style.color = '#e74c3c';
+    clockContainer.style.fontWeight = 'bold';
+    document.querySelector('.sidebar').prepend(clockContainer);
+
+    function updateClock() {
+        const now = new Date();
+        clockContainer.textContent = now.toLocaleTimeString();
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    // Tambahkan animasi pada teks di sidebar
+    const sidebarTitle = document.querySelector('.sidebar h1');
+    sidebarTitle.style.animation = 'pulse 2s infinite';
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    `;
+    document.head.appendChild(style);
+
+    // Tambahkan notifikasi
+    const notification = document.createElement('div');
+    notification.textContent = 'Selamat datang ke laman Ikmal!';
+    notification.style.position = 'absolute';
+    notification.style.bottom = '20px';
+    notification.style.left = '20px';
+    notification.style.padding = '10px';
+    notification.style.backgroundColor = '#e74c3c';
+    notification.style.color = 'white';
+    notification.style.borderRadius = '5px';
+    notification.style.boxShadow = '0 0 5px rgba(0,0,0,0.3)';
+    notification.style.cursor = 'pointer';
+    notification.addEventListener('click', () => notification.remove());
+    document.querySelector('.sidebar').appendChild(notification);
+</script>
+</body>
+</html>

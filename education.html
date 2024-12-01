@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        /* Reset and Body Style */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #dff1ff, #edfaff);
+            color: #333;
+            display: flex;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: white;
+            height: 100vh;
+        }
+        .sidebar h1 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .sidebar h1 span {
+            color: #e74c3c;
+            font-size: 14px;
+            display: block;
+        }
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 30px;
+            width: 100%;
+        }
+        .contact-links a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .contact-links a:hover {
+            background-color: #e0e0e0;
+            color: black;
+        }
+        .social-icons {
+            margin-top: auto;
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        .main-content h1 {
+            margin-bottom: 30px;
+        }
+
+        /* Education Cards */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap; /* To make cards wrap for smaller screens */
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        .card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+        .card h3 {
+            color: #24346d;
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+        .card p {
+            margin: 10px 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .read-more-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            color: white;
+            background-color: #2da05d;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .read-more-btn:hover {
+            background-color: #248c51;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <h1>Ikmal Fathillah <span>Student</span></h1>
+        </div>
+        <div class="contact-links">
+            <a href="Biodata.html">ABOUT ME</a>
+            <a href="Gallery.html">GALLERY</a>
+            <a href="Family.html">FAMILY</a>
+            <a href="education.html">EDUCATION</a>
+	    <a href="experience.html">EXPERIENCE</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>My Education</h1>
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="Sekolah1.jpg" alt="Sekolah Rendah">
+                <h3>Sekolah Rendah</h3>
+                <p>Pada tahun 2011 dimana umur saya tujuh tahun, saya bersekolah di Sekolah Kebangsaan Kota Warisan yang bertempat di Sepang, Selangor.</p>
+                <a href="https://sekolah2u.com/listing/sekolah-kebangsaan-kota-warisan/" class="read-more-btn" target="_blank">Read More</a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="Sekolah2.jpg" alt="Sekolah Menengah">
+                <h3>Sekolah Menengah</h3>
+                <p>Pada tahun 2017 dimana umur saya 13 tahun, saya bersekolah di Sekolah Menengah Kebangsaan Bandar Baru Salak Tinggi, yang bertempat di Sepang, Selangor.</p>
+                <a href="https://smkbbst.blogspot.com/p/info-smkbbst.html" class="read-more-btn" target="_blank">Read More</a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="Sekolah3.jpg" alt="Universiti">
+                <h3>Universiti</h3>
+                <p>Pada tahun 2022, umur saya 18 tahun, saya menyambung pelajaran saya di UITM Cawangan Johor Kampus Segamat dan mengambil diploma pengurusan maklumat.</p>
+                <a href="https://johor.uitm.edu.my/" class="read-more-btn" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+<script>
+    // Tambahkan jam digital
+    const clockContainer = document.createElement('div');
+    clockContainer.style.marginTop = '20px';
+    clockContainer.style.fontSize = '18px';
+    clockContainer.style.color = '#e74c3c';
+    clockContainer.style.fontWeight = 'bold';
+    document.querySelector('.sidebar').prepend(clockContainer);
+
+    function updateClock() {
+        const now = new Date();
+        clockContainer.textContent = now.toLocaleTimeString();
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    // Tambahkan animasi pada teks di sidebar
+    const sidebarTitle = document.querySelector('.sidebar h1');
+    sidebarTitle.style.animation = 'pulse 2s infinite';
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    `;
+    document.head.appendChild(style);
+
+    // Tambahkan notifikasi
+    const notification = document.createElement('div');
+    notification.textContent = 'Selamat datang ke laman Ikmal!';
+    notification.style.position = 'absolute';
+    notification.style.bottom = '20px';
+    notification.style.left = '20px';
+    notification.style.padding = '10px';
+    notification.style.backgroundColor = '#e74c3c';
+    notification.style.color = 'white';
+    notification.style.borderRadius = '5px';
+    notification.style.boxShadow = '0 0 5px rgba(0,0,0,0.3)';
+    notification.style.cursor = 'pointer';
+    notification.addEventListener('click', () => notification.remove());
+    document.querySelector('.sidebar').appendChild(notification);
+</script>
+</body>
+</html>
